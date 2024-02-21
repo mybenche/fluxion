@@ -1,0 +1,45 @@
+body {
+    font-family: "Open Sans", sans-serif; /* Consider a more modern, web-friendly font */
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Slightly lighter background for contrast */
+  }
+  
+  .header {
+    background-color: #3498db; /* A more vibrant blue */
+    color: #fff;
+    padding: 25px 40px; /* Increase padding for a more spacious feel */
+    text-align: center;
+    font-size: 1.5em; /* Larger header font for emphasis */
+    border-bottom: 5px solid #2980b9; /* Adjust border color to match header */
+    border-radius: 8px; /* Add subtle border radius for smoothness */
+  }
+  
+  .main {
+    margin: 20px auto; /* Center the main content */
+    background-color: #fff;
+    padding: 30px; /* Increase padding for better readability */
+    border-radius: 10px; /* Softer border radius */
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); /* Add subtle shadow for depth */
+  }
+  
+  .buy-button {
+    background-color: #007bff; /* A more prominent blue */
+    border: none;
+    color: #fff;
+    padding: 12px 30px; /* Adjust padding for better balance */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px; /* Increase font size for better visibility */
+    margin: 15px auto; /* Center the button */
+    cursor: pointer;
+    border-radius: 5px; /* Consistent border radius */
+    transition-duration: 0.3s; /* Smoother transition */
+  }
+  
+  .buy-button:hover {
+    background-color: #db3434;
+    color: #ffffff;
+  }
+  
